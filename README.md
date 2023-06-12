@@ -47,6 +47,12 @@ $ psql --host HOSTNAME my.db
 
 This will connect you to a SQLite database at the path `/data/my.db`.
 
+## Docker
+
+If you'd like to use Docker there's a dockerfile available. If you'd like to use
+Docker Compose then just run `docker-compose up`. Put your SQLite databases in the
+`/data` folder.
+
 
 ## Development
 
@@ -66,4 +72,3 @@ this time. Please [submit an issue][new-issue] if you have a feature you'd like
 to request.
 
 [new-issue]: https://github.com/benbjohnson/postlite/issues/new
-
